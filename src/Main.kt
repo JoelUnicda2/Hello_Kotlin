@@ -1,7 +1,7 @@
 import java.util.Calendar
 
 fun main(args: Array<String>) {
-    println("Hello, world!")
+    println("Hello, ${args[0]}!")
 
     dayoftheweek()
 }
