@@ -7,7 +7,15 @@ fun feedfish() {
     val  day = randonDay()
     val food = fishfood(day)
     println("Today is $day and I ate $food")
+    shouldChangeWater(day, 20, 20)
+    shouldChangeWater("Monday")
+    shouldChangeWater(day)
+    shouldChangeWater(day, dirty = 50)
+    shouldChangeWater(day = "Tuesday")
 
+    if (shouldChangeWater(day)) {
+        println("Change the water today")
+    }
 }
 
 fun randonDay( ) : String {

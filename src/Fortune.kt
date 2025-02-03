@@ -25,7 +25,6 @@ fun getFortuneCookie(birthday: Int): String {
 }
 
 
-
 fun main(args: Array<String>) {
     var fortune: String
     for (i in 1..10) {
