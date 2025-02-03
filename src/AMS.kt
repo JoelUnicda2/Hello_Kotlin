@@ -37,12 +37,6 @@ fun fishfood ( day: String ) : String {
 
 
 
-
-
-
-
-
-
 fun getFortuneCookie(): String {
     val fortunes = listOf(
         "You will have a great day!",
