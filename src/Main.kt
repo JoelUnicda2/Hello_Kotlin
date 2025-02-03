@@ -8,6 +8,8 @@ fun main(args: Array<String>) {
     dayoftheweek()
 
     feedfish()
+
+    println("Your fortune is: ${getFortuneCookie()}")
 }
 
 
