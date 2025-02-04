@@ -10,7 +10,9 @@ fun whatShouldIDoToday(
 ): String {
     return when {
         mood == "happy" && weather == "sunny" -> "go for a walk"
+        mood == "sad" && weather == "rainy" -> "stay in bed"
         temperature < 0 -> "Stay inside and drink hot chocolate"
+        temperature > 35 -> "go swimming"
         weather == "rainy" -> "Stay in and watch movies"
         else -> "Stay home and read."
     }
