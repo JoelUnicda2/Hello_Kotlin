@@ -1,7 +1,7 @@
 package Aquarium.Decorations
 
 
-class Book(val title: String, val author: String, val year: Int) {
+class Books(val title: String, val author: String, val year: Int) {
 
 
     fun getTitleAndAuthor(): Pair<String, String> {
@@ -17,7 +17,7 @@ class Book(val title: String, val author: String, val year: Int) {
 fun main() {
 
 
-    val book = Book("1984", "George Orwell", 1949)
+    val book = Books("1984", "George Orwell", 1949)
 
 
     val (title, author) = book.getTitleAndAuthor()
